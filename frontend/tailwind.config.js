@@ -6,7 +6,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "primary": "color-mix(in srgb, var(--color-primary) calc(100% * <alpha-value>), transparent)",
+        "base-content": "color-mix(in srgb, var(--color-base-content) calc(100% * <alpha-value>), transparent)"
+      }
+    },
   },
   plugins: [daisyui],
 }
