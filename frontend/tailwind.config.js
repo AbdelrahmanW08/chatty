@@ -9,7 +9,8 @@ export default {
     extend: {
       colors:{
         "primary": "color-mix(in srgb, var(--color-primary) calc(100% * <alpha-value>), transparent)",
-        "base-content": "color-mix(in srgb, var(--color-base-content) calc(100% * <alpha-value>), transparent)"
+        "base-content": "color-mix(in srgb, var(--color-base-content) calc(100% * <alpha-value>), transparent)",
+        "base-100": "color-mix(in srgb, var(--color-base-100) calc(100% * <alpha-value>), transparent)"
       }
     },
   },
